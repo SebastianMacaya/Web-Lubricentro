@@ -120,17 +120,20 @@ li {
 
 
 
-/* ----Formulario--- */
+/* ----Contacto--- */
 
 
 form {
-border: 2px solid lightskyblue;
 width: max-content;
 
 box-sizing: border-box;
 
 
 
+}
+.formulario {
+  margin-left: 7%;
+  
 }
 form input {
 
@@ -179,16 +182,29 @@ display: block;
 .mainContacto{
   display: flex;
  justify-content: center;
+ margin-top: 4%;
+ background: black;
  
 
 }
  .textoMainContacto{
 
   flex-direction: column;
+  display: flex;
+  justify-content: center;
  }
 
+.mapa {
+display: flex;
+justify-content: center;
+margin-top: 3%;
+margin-bottom: 3%;
+}
 
-
+.redes {
+  display: flex;
+  flex-direction: column;
+}
 
 /*  ----Ir arriba --- */
 
@@ -209,12 +225,8 @@ display: block;
 
 
 
-/*   ---break point ---   */
-
-@media (max-width: 1200px) {
 
 
-}
 /* ---tablet responsive -- */
 @media  (max-width: 768px) {
   body{
