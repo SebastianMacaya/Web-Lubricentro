@@ -17,10 +17,6 @@ body {
   
 }
 
-
-
-
-
 .center {
   display: flex;
 }
@@ -223,9 +219,10 @@ display: block;
 #grilla {
   display: grid;
   grid-template-areas:
-    " header header publicidad"
-    "header  header publicidad"
-    "footer footer footer";
+    " nav  header header"
+    "nav productos publicidad"
+    "nav servicios publicidad"
+    "nav footer footer";
 
   grid-template-rows: 2fr 1fr 1fr ;
   grid-template-columns: 15% auto auto;
