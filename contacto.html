@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="CSS/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <nav>
+          <ul class="lista">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienes_somos.html">Quienes Somos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="mainContacto">
+
+      <div class="textoMainContacto">
+      <p>CONTACTO</p>
+      <p>Blummetti 375, Cinco Saltos R.N</p>
+      <p>sergio@lubricentroelcacique.com.ar</p>
+      <p>0299-4983444</p>
+    </div>
+    
+    <div class="formulario">
+
+    <div class="logoForm">
+    <img class="logo"  src="./imagenes/logo.jpeg" alt="logo-lubricentro" />
+
+    </div 
+  class="form">
+    <form action="POST" >
+     <label for="name">Nombre *</label>
+      <input type="text" placeholder="Ingresa  tu nombre" required name="name" />
+      <label for="email">Email *</label>
+      <input
+        type="email"
+        name="email"
+        id=""
+        placeholder="Ingresa tu email"
+        required
+      />
+      
+      <label for="telefono">Teléfono</label>
+      <input type="tel" placeholder="Introduce tu numero de telefono" />
+      
+      <label for="asunto">Asunto *</label>
+
+      <input type="text" placeholder="Escribe el  Asunto" required />
+      
+      <label for="mensaje" id="mensajeForm">Mensaje *</label>
+      <textarea
+        name="mensaje"
+        id=""
+        cols="63"
+        rows="8"
+        placeholder="Escribe tu mensaje aqui..."
+        required
+      ></textarea>
+
+      <br>
+      <label for="newsletter">Desea recibir el newsletter</label>
+      <input type="checkbox" name="" id="newsletter" />
+      
+
+      <input type="submit" value="Enviar" id="button_send" />
+    </form>
+
+  </div>  
+
+  <section id="whatsapp">
+
+    <a href="https://wa.me/+542995114769">
+
+            <img src="./imagenes/whatsapp.png" alt="logo whatsapp">  
+    </a>
+</section>
+
+  </main>
+
+
+
+
+   <!-- footer  -->
+   <footer class="footer">
+    <p>©2021 por Sebastian Macaya</p>
+  </footer>
+  </body>
+</html>
