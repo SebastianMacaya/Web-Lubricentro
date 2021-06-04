@@ -26,6 +26,7 @@ body {
   margin: auto;
   padding: initial;
   
+  
 }
 
 .titulo {
@@ -257,6 +258,7 @@ margin-bottom: 3%;
     margin: auto;
     padding: initial;
     border: 1px solid;
+    
   
   }
   
@@ -312,6 +314,7 @@ li {
   text-align: center;
   text-decoration: underline white;
   border: 1px solid;
+  font-size: 2rem;
 }
 a {
     color: white;
