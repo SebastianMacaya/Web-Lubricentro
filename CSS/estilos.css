@@ -36,9 +36,15 @@ body {
   justify-content: space-between;
   background-image: url(../imagenes/titulo3.webp); 
   background-repeat: no-repeat;
-
-height: 600px;
+  filter: drop-shadow(1px 4px 31px black) !important;
+ height: 600px;
+ 
 }
+
+#tituloh1{
+  font-size: 4rem;
+}
+
 .logo {
   width: 144px;
   height: 144px;
@@ -74,7 +80,6 @@ li {
 
 
 .main{
-  border: 1px solid white;
   text-align: center;
 }
 
@@ -104,17 +109,6 @@ li {
 
 
 
-/* ---footer --- */
-.footer {
-  height: 80px;
- background-color:#393e46;
-  bottom: 0px;
-  left: 0;
-  width: 100%;
-  display: flex;
-  align-items: flex-end;
- 
-}
 
 
 
@@ -354,6 +348,8 @@ a {
 .historia {
   text-align: center;
   background: gray;
+  color: lavenderblush;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .grid-container div img {
@@ -363,4 +359,22 @@ a {
 .tituloMarcas {
   text-align: center;
 
+}
+
+
+/* ---footer --- */
+.footer {
+  height: 80px;
+ background-color:#393e46;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+ 
+}
+
+.footer div a span {
+  color: lightblue;
 }
