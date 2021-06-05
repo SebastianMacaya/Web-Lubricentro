@@ -33,7 +33,6 @@
     <!-- Titulo -->
     <div class="titulo">
       <h1 id="tituloh1">Lubricentro el Cacique</h1>
-      <!-- <img class="logo" src="./imagenes/logo.jpeg" alt="logo-lubricentro" /> -->
     </div>
     <!-- Side bar -->
     <div class="center">
@@ -124,10 +123,11 @@
 class="form">
   <form action="POST" >
    <label for="name">Nombre *</label>
-    <input type="text" placeholder="Ingresa  tu nombre" required name="name" />
+    <input type="text" placeholder="Ingresa  tu nombre" required name="name" autocomplete="off" />
     <label for="email">Email *</label>
     <input
       type="email"
+      autocomplete="off"
       name="email"
       id=""
       placeholder="Ingresa tu email"
