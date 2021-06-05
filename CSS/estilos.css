@@ -74,6 +74,10 @@ li {
   
   
 }
+.lista li a:hover{
+ font-size: 1.1rem;
+ color:red;
+}
 
 
 
@@ -100,24 +104,21 @@ li {
 }
 
 
+
+/* ----Contacto--- */
+
 #contactenos{
 
   color: black;
   display: flex;
+  font-size: 1.1rem;
+  
   
 }
 
-
-
-
-
-
-
-
-
-
-/* ----Contacto--- */
-
+#contactenos:hover {
+transform: scale(1.1);
+}
 
 form {
 width: max-content;
@@ -136,7 +137,10 @@ form input {
 display: block;
  width: 50%;
   }
- 
+
+  form input:hover {
+    transform: scale(1.1);
+  }
 
  #mensajeForm {
   display: block;
@@ -156,7 +160,7 @@ display: block;
   }
 #button_send:hover {
   background-color: lightskyblue;
-  font-size: 24px;
+  font-size: 1.1rem;
 } 
 
 
