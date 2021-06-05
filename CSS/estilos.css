@@ -318,6 +318,11 @@ a {
 }
 
 
+.gmap_canvas iframe {
+  width: 800px;
+  margin-right: 15%;
+}
+
 }
 
 
