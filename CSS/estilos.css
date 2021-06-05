@@ -231,6 +231,9 @@ margin-bottom: 3%;
   .contenedorFlex {
     flex-wrap: wrap;
   }
+  .contenedorFlex img {
+    width: 100%;
+  }
  
   
   
