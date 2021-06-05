@@ -43,6 +43,7 @@ body {
 
 #tituloh1{
   font-size: 4rem;
+
 }
 
 .logo {
@@ -234,8 +235,7 @@ margin-bottom: 3%;
   .contenedorFlex img {
     width: 100%;
   }
- 
-  
+
   
   
   
@@ -374,13 +374,17 @@ a {
 /* ---footer --- */
 .footer {
   height: 80px;
- background-color:#393e46;
+  background: linear-gradient(90deg, rgba(69,69,69,1) 0%, rgba(43,43,43,1) 91%);
   bottom: 0px;
   left: 0;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  filter: drop-shadow(2px 4px 6px black);
+
+
+
  
 }
 
