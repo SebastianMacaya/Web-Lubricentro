@@ -9,25 +9,12 @@ body {
 }
 
 
- 
-
-.menuNav{
-
-  display: flow-root;
-  
-}
-
 .center {
   display: flex;
 }
 
-.lista {
-  display: flex;
-  margin: auto;
-  padding: initial;
-  
-  
-}
+ 
+
 
 .titulo {
   color:#eeeeee; 
@@ -66,18 +53,7 @@ a {
   line-height: 3;
 }
 
-li {
-  list-style: none;
-  flex: auto;
-  text-align: center;
-  text-decoration: underline white;
-  
-  
-}
-.lista li a:hover{
- font-size: 1.1rem;
- color:red;
-}
+
 
 
 
