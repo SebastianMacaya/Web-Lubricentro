@@ -196,8 +196,6 @@ display: block;
   z-index: 100;
 }
 
-
-
 /* ---tablet responsive -- */
 @media  (max-width: 768px) {
  
