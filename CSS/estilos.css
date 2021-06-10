@@ -1,21 +1,10 @@
 body {
-  margin: 0;
-  padding: 0;
   font-family: 'Open Sans', sans-serif; /* tipografia */
   background-color:#222831;
   color: #eeeeee;
   box-sizing: border-box;
    
 }
-
-
-
-.center {
-  display: flex;
-}
-
- 
-
 
 .titulo {
   color:#eeeeee; 
@@ -32,6 +21,9 @@ body {
 #tituloh1{
   font-size: 4rem;
 
+}
+#contactoMobile{
+  display: none;
 }
 
 .logo {
@@ -185,6 +177,70 @@ display: block;
   display: none;
 }
 
+
+/* ---- quienes somos --- */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "image1 text1 text1 text1"
+    "image2 text2 text2 text2"
+    "image3 image4 image5 image6";
+
+   
+}
+.image1 { grid-area: image1; }
+.image2 { grid-area: image2; }
+.text1 { grid-area: text1; }
+.text2 { grid-area: text2; }
+.image3 { grid-area: image3; }
+.image4 { grid-area: image4; }
+.image5 { grid-area: image5; }
+.image6 { grid-area: image6; }
+
+.historia {
+  text-align: center;
+  background: gray;
+  color: lavenderblush;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.grid-container div img {
+  width: 95%;
+  height: 300px;
+}
+.tituloMarcas {
+  text-align: center;
+
+}
+
+
+/* ---footer --- */
+.footer {
+  height: 80px;
+  background: linear-gradient(90deg, rgba(69,69,69,1) 0%, rgba(43,43,43,1) 91%);
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  filter: drop-shadow(2px 4px 6px black);
+
+
+
+ 
+}
+
+.footer div a span {
+  color: lightblue;
+}
+
+
+/* ---- Js -- */ 
 /*  ----Ir arriba --- */
 
 .ir-arriba {
@@ -286,68 +342,13 @@ display: block;
 .mailContacto a:hover{
   color: aqua;
 }
+
+#contactoDesktop{
+  display: none;
 }
 
-
-
-
-/* ---- quienes somos --- */
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "image1 text1 text1 text1"
-    "image2 text2 text2 text2"
-    "image3 image4 image5 image6";
-
-   
-}
-.image1 { grid-area: image1; }
-.image2 { grid-area: image2; }
-.text1 { grid-area: text1; }
-.text2 { grid-area: text2; }
-.image3 { grid-area: image3; }
-.image4 { grid-area: image4; }
-.image5 { grid-area: image5; }
-.image6 { grid-area: image6; }
-
-.historia {
-  text-align: center;
-  background: gray;
-  color: lavenderblush;
-  filter: drop-shadow(2px 4px 6px black);
+#contactoMobile{
+  display: inline-block;
 }
 
-.grid-container div img {
-  width: 95%;
-  height: 300px;
-}
-.tituloMarcas {
-  text-align: center;
-
-}
-
-
-/* ---footer --- */
-.footer {
-  height: 80px;
-  background: linear-gradient(90deg, rgba(69,69,69,1) 0%, rgba(43,43,43,1) 91%);
-  bottom: 0px;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  filter: drop-shadow(2px 4px 6px black);
-
-
-
- 
-}
-
-.footer div a span {
-  color: lightblue;
 }
