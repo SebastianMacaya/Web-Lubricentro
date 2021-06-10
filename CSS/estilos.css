@@ -181,6 +181,9 @@ display: block;
   margin-top: 2%;
 }
 
+.mailContacto{
+  display: none;
+}
 
 /*  ----Ir arriba --- */
 
@@ -276,7 +279,13 @@ display: block;
   display: none;
 }
 
-
+.mailContacto {
+  display: block ;
+  text-align: center;
+}
+.mailContacto a:hover{
+  color: aqua;
+}
 }
 
 
