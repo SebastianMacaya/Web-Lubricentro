@@ -18,6 +18,11 @@ body {
  
 }
 
+a.nav-link:hover{
+
+  color: red !important;
+}
+
 #tituloh1{
   font-size: 4rem;
 
