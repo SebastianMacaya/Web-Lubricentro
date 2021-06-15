@@ -23,7 +23,7 @@ a.nav-link:hover {
 }
 
 #tituloh1 {
-  font-size: 4rem;
+  font-size: 3.7rem;
 }
 
 #contactoMobile {
@@ -53,7 +53,7 @@ a {
 }
 
 #contactenos:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 
 form {
@@ -317,6 +317,11 @@ form input {
 }
 .article__main .article__containerTextTitle {
   color: green;
+}
+@media (max-width: 968px) {
+  .article__main .article__containerImg {
+    width: 50%;
+  }
 }
 @media (max-width: 768px) {
   .article__main .article__containerImg {
