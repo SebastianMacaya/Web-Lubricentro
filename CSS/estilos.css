@@ -46,10 +46,6 @@ a {
 }
 
 /* --- main container--- */
-.main {
-  text-align: center;
-}
-
 .contenedorFlex {
   display: flex;
 }
@@ -215,20 +211,6 @@ form input {
   color: lightblue;
 }
 
-/* ---- Js -- */
-/*  ----Ir arriba --- */
-.ir-arriba {
-  display: block;
-  padding: 17px;
-  background: gray;
-  font-size: 15px;
-  cursor: pointer;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 100;
-}
-
 /* ---tablet responsive -- */
 @media (max-width: 768px) {
   .contenedorFlex {
@@ -237,6 +219,10 @@ form input {
 
   .contenedorFlex img {
     width: 100%;
+  }
+
+  .contenedorTexto {
+    flex-direction: column;
   }
 
   .titulo {
@@ -316,4 +302,15 @@ form input {
   .grid-container div div img {
     object-fit: scale-down;
   }
+}
+.ir-arriba {
+  display: block;
+  padding: 17px;
+  background: gray;
+  font-size: 15px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
 }/*# sourceMappingURL=estilos.css.map */
