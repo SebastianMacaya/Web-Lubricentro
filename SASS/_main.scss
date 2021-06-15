@@ -50,29 +50,6 @@ body {
     color:white;
     line-height: 3;
   }
-  
-  
-  
-  
-  
-  /* --- main container--- */
-  .contenedorFlex{
-    display:flex;
-   
-  
-    
-  }
-  
-  .contenedorTexto{
-  
-    background:#393e46;
-    text-align: center;
-    width: 100%
-   
-  }
-  
-  
-  
   /* ----Contacto--- */
   
   #contactenos{
@@ -237,20 +214,6 @@ body {
   }
   /* ---tablet responsive -- */
   @media  (max-width: 768px) {
-   
-  
-    .contenedorFlex {
-      flex-wrap: wrap;
-    }
-    .contenedorFlex img {
-      width: 100%;
-    }
-  
-    .contenedorTexto{
-      flex-direction: column;
-    }
-    
-    
     .titulo {
     
       display: flex;
@@ -293,16 +256,6 @@ body {
   
   /* --- mobile responsive --- */
   @media  (max-width: 576px) {
-  
-  
-  
-  .contenedorFlex {
-    flex-wrap: wrap;
-  }
-  .contenedorFlex img {
-    width: 100%;
-  }
- 
   .titulo {
   
     display: flex;
