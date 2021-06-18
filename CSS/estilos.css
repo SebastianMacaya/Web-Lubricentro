@@ -19,7 +19,8 @@ body {
 }
 
 a.nav-link:hover {
-  color: red !important;
+  color: gold !important;
+  text-decoration: underline;
 }
 
 #tituloh1 {
@@ -36,7 +37,7 @@ a.nav-link:hover {
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.3rem;
 }
 
 a {
@@ -56,13 +57,9 @@ a {
   transform: scale(0.9);
 }
 
-form {
-  width: max-content;
-  box-sizing: border-box;
-}
-
 .formulario {
   margin-left: 7%;
+  width: auto;
 }
 
 form input {
@@ -335,4 +332,4 @@ form input {
 }
 .article__main .article__containerTextParagraph {
   text-align: center;
-}/*# sourceMappingURL=estilos.css.map */
+} /*# sourceMappingURL=estilos.css.map */
