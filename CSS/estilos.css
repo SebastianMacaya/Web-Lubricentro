@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
   /* tipografia */
@@ -18,6 +20,12 @@ body {
   background-size: cover;
 }
 
+a.nav-link {
+  text-decoration: none;
+  color: white;
+  line-height: 3;
+}
+
 a.nav-link:hover {
   color: gold !important;
   text-decoration: underline;
@@ -25,6 +33,7 @@ a.nav-link:hover {
 
 #tituloh1 {
   font-size: 3.7rem;
+  font-family: "Staatliches", cursive;
 }
 
 #contactoMobile {
@@ -38,12 +47,6 @@ a.nav-link:hover {
 
 p {
   font-size: 1.3rem;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  line-height: 3;
 }
 
 /* ----Contacto--- */
@@ -166,8 +169,8 @@ form input {
 
 .historia {
   text-align: center;
-  background: gray;
-  color: lavenderblush;
+  background: #0a0808;
+  color: #eb4034;
   filter: drop-shadow(2px 4px 6px black);
 }
 
@@ -244,6 +247,10 @@ form input {
     height: 170px;
   }
 
+  .btnContacto {
+    display: none;
+  }
+
   .mainContacto {
     display: none;
   }
@@ -282,10 +289,10 @@ form input {
 }
 
 .article__main .article__title {
-  color: red;
+  color: #eb4034;
 }
 .article__main .article__subtitle {
-  color: royalblue;
+  color: lightgray;
 }
 .article__main .article__container {
   display: flex;
@@ -301,7 +308,6 @@ form input {
   }
 }
 .article__main .article__containerText {
-  border: 1px solid red;
   background: #393e46;
   text-align: center;
   width: 100%;
@@ -313,7 +319,7 @@ form input {
   }
 }
 .article__main .article__containerTextTitle {
-  color: green;
+  color: #eb4034;
 }
 @media (max-width: 968px) {
   .article__main .article__containerImg {
@@ -332,4 +338,46 @@ form input {
 }
 .article__main .article__containerTextParagraph {
   text-align: center;
-} /*# sourceMappingURL=estilos.css.map */
+}
+
+.btn {
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: "Lora", serif;
+  font-size: 1.1em;
+}
+
+.btn-green {
+  background: #2ecc71;
+}
+.btn-green:hover {
+  background: #26ab5f;
+  transition: all 0.3s ease;
+}
+.btn-green:active {
+  background: #176437;
+}
+
+.btn-blue {
+  background: #3498db;
+}
+.btn-blue:hover {
+  background: #2383c4;
+  transition: all 0.3s ease;
+}
+.btn-blue:active {
+  background: #16527a;
+}
+
+.btn-cyan {
+  background: lightcyan;
+}
+.btn-cyan:hover {
+  background: #b7ffff;
+  transition: all 0.3s ease;
+}
+.btn-cyan:active {
+  background: #61ffff;
+}/*# sourceMappingURL=estilos.css.map */

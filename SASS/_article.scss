@@ -1,10 +1,10 @@
 .article__main {
   .article__title {
-    color: blueviolet;
+    color: $color-red;
   }
 
   .article__subtitle {
-    color: royalblue;
+    color: $color-lg;
   }
 
   .article__container {
@@ -19,7 +19,6 @@
   }
 
   .article__containerText {
-    border: 1px solid red;
     background: #393e46;
     text-align: center;
     width: 100%;
@@ -31,7 +30,7 @@
   }
 
   .article__containerTextTitle {
-    color: green;
+    color: $color-red;
   }
 
   .article__containerImg {

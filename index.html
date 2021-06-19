@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/aos.css">
     <link rel="stylesheet" href="CSS/estilos.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="shortcut icon" href="./imagenes/fav.ico" type="image/x-icon">
@@ -46,9 +47,9 @@
         <p class="article__subtitle">Reparaciones lideres en la industria</p>
 
         <div class="d-flex article__container">
-          <img src="./imagenes/presion.webp" alt="imagen de valvula presion" class="article__containerImg" />
+          <img src="./imagenes/presion.webp" alt="imagen de valvula presion" class="article__containerImg" data-aos="zoom-out-up" data-aos-duration="1500" />
 
-          <div class="contenedorTexto article__containerText">
+          <div class="contenedorTexto article__containerText" data-aos="zoom-out-up" data-aos-duration="1500">
             <h3 class="article__containerTextTitle">Controles de presión</h3>
             <p class="article__containerTextParagraph">
               Lubricentro el Cacique tiene la experiencia necesaria en Controles
@@ -66,8 +67,10 @@
             src="./imagenes/inspeccion.webp"
             alt="imagen de inspeccion de vehiculo"
             class="article__containerImg"
+            data-aos="zoom-out-up"
+            data-aos-duration="2400"
           />
-          <div class="contenedorTexto article__containerText">
+          <div class="contenedorTexto article__containerText" data-aos="zoom-out-up"data-aos-duration="2400">
             <h3 class="article__containerTextTitle">Inspecciones de vehículos</h3>
             <p class="article__containerTextParagraph">
               Nuestro servicio en Inspecciones de vehículos nos diferencian de
@@ -79,14 +82,14 @@
         </div>
         <!--  ---- Contactenos ---- -->
         <p>
-          Nos nos encanta lo que hacemos. Es muy simple. Amamos los automóviles.
+          ¡Nos encanta lo que hacemos! Es muy simple. Amamos los automóviles.
           Llámenos hoy mismo.
         </p>
 
-        <button>
+       
           
-          <a href="mailto:sergio@lubricentroelcacique.com.ar" id="contactenos">Contactenos</a>
-        </button>
+          <a href="mailto:sergio@lubricentroelcacique.com.ar" class="btn btn-cyan btnContacto">Contactenos</a>
+       
         <div class="d-flex article__container">
           <img
             src="./imagenes/horarios.webp"
@@ -201,5 +204,9 @@
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./arriba.js"></script>
+    <script src="./aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

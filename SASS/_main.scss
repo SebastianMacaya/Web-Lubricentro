@@ -16,7 +16,11 @@ body {
   height: 600px;
   background-size: cover;
 }
-
+a.nav-link {
+  text-decoration: none;
+  color: white;
+  line-height: 3;
+}
 a.nav-link:hover {
   color: gold !important;
   text-decoration: underline;
@@ -24,6 +28,7 @@ a.nav-link:hover {
 
 #tituloh1 {
   font-size: 3.7rem;
+  font-family: "Staatliches", cursive;
 }
 #contactoMobile {
   display: none;
@@ -38,11 +43,6 @@ p {
   font-size: 1.3rem;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  line-height: 3;
-}
 /* ----Contacto--- */
 
 #contactenos {
@@ -156,8 +156,8 @@ form input {
 
 .historia {
   text-align: center;
-  background: gray;
-  color: lavenderblush;
+  background: $color-black;
+  color: $color-red;
   filter: drop-shadow(2px 4px 6px black);
 }
 
@@ -235,7 +235,9 @@ form input {
     background-size: cover;
     height: 170px;
   }
-
+  .btnContacto {
+    display: none;
+  }
   .mainContacto {
     display: none;
   }
