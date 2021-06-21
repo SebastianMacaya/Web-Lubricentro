@@ -110,13 +110,9 @@ form input {
   justify-content: center;
 }
 
-.redes {
-  display: flex;
-  flex-direction: column;
-}
-
 .mapDesktop {
   margin-top: 2%;
+  margin-bottom: 1%;
 }
 
 .mailContacto {
@@ -184,12 +180,11 @@ form input {
 .footer {
   height: 80px;
   background: linear-gradient(90deg, #454545 0%, #2b2b2b 91%);
-  bottom: 0px;
-  left: 0;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
   filter: drop-shadow(2px 4px 6px black);
 }
 
@@ -383,4 +378,21 @@ form input {
 }
 .btn-cyan:active {
   background: #61ffff;
+}
+
+/*Creamos el bucle para usar los valores del mapa*/
+.border-green {
+  border: 1px solid #2ecc71;
+}
+
+.border-blue {
+  border: 1px solid #3498db;
+}
+
+.border-cyan {
+  border: 1px solid lightcyan;
+}
+
+.border-red {
+  border: 1px solid #ff2e2e;
 }/*# sourceMappingURL=estilos.css.map */
