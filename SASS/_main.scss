@@ -13,17 +13,19 @@ body {
   background-image: url(../imagenes/titulo3.webp);
   background-repeat: no-repeat;
   filter: drop-shadow(1px 4px 31px black) !important;
-  height: 600px;
+  height: ($heipx * 0.6);
   background-size: cover;
 }
 a.nav-link {
   text-decoration: none;
-  color: white;
+  color: $color-lgy;
   line-height: 3;
+  transition: all 500ms ease-in-out;
 }
 a.nav-link:hover {
   color: gold !important;
   text-decoration: underline;
+  filter: saturate(95%);
 }
 
 #tituloh1 {
@@ -163,7 +165,7 @@ form input {
 
 .grid-container div img {
   width: 95%;
-  height: 300px;
+  height: $heipx - 700px;
 }
 .tituloMarcas {
   text-align: center;

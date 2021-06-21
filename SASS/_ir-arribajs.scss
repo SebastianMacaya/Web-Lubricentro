@@ -1,11 +1,12 @@
 .ir-arriba {
-    display:block;
-    padding:17px;
-    background:gray;
-    font-size:15px;
-    cursor:pointer;
-    position: fixed;
-    bottom:20px;
-    right:20px;
+  display: block;
+  padding: 17px;
+  background: gray;
+  font-size: 9px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
   z-index: 100;
+  border-radius: 5%;
 }

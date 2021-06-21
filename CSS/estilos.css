@@ -22,13 +22,15 @@ body {
 
 a.nav-link {
   text-decoration: none;
-  color: white;
+  color: lightcyan;
   line-height: 3;
+  transition: all 500ms ease-in-out;
 }
 
 a.nav-link:hover {
   color: gold !important;
   text-decoration: underline;
+  filter: saturate(95%);
 }
 
 #tituloh1 {
@@ -280,12 +282,13 @@ form input {
   display: block;
   padding: 17px;
   background: gray;
-  font-size: 15px;
+  font-size: 9px;
   cursor: pointer;
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 100;
+  border-radius: 5%;
 }
 
 .article__main .article__title {
