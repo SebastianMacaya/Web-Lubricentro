@@ -22,6 +22,10 @@
     background: #393e46;
     text-align: center;
     width: $cienx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 4%;
 
     @media (max-width: 768px) {
       flex-direction: column;
