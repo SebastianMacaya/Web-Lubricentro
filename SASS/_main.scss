@@ -78,7 +78,10 @@ form input {
   margin: 4%;
   opacity: 70%;
 }
-
+#whatsapp a img {
+  width: 80px;
+  height: 80px;
+}
 #whatsapp a {
   background: none;
   position: fixed;
@@ -157,7 +160,9 @@ form input {
 .tituloMarcas {
   text-align: center;
 }
-
+.grid-container .carousel-caption h5 {
+  color: yellow;
+}
 /* ---footer --- */
 .footer {
   height: 80px;
