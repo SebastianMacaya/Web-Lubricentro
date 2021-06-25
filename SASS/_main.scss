@@ -141,7 +141,7 @@ form input {
 }
 
 .grid-container div img {
-  width: 95%;
+  width: 100%;
   height: $heipx - 700px;
 }
 
@@ -196,10 +196,6 @@ form input {
     line-height: 3;
     width: 100%;
   }
-
-  .grid-container div div img {
-    object-fit: scale-down;
-  }
 }
 
 /* --- mobile responsive --- */
@@ -236,7 +232,20 @@ form input {
     display: inline-block;
   }
 
-  .grid-container div div img {
-    object-fit: scale-down;
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image1 {
+    order: 0;
+  }
+  .image2 {
+    order: 2;
+  }
+  .text1 {
+    order: -1;
+  }
+  .text2 {
+    order: 1;
   }
 }
