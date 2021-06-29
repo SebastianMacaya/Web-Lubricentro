@@ -1,5 +1,5 @@
 <?php
-$email_to = "sebastian@lubricentroelcacique.com.ar";
+$email_to = "sergio@lubricentroelcacique.com.ar";
 $email_subject = "Contacto desde el sitio web";
 $email_message = "Detalles del formulario de contacto:\n\n";
 $email_message .= "Nombre: " . $_POST['nombre'] . "\n";
