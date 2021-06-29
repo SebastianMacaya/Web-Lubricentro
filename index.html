@@ -11,8 +11,7 @@
       content="Lubricentro en Cinco Saltos con más de 28 años de experiencia realizando reparación de vehículos"
     />
     <meta property=“og:imagen”
-    content=“https://sebastianmacaya.github.io/Web-Lubricentro/imagenes/auto1.jpg”
-    />
+    content=“https://www.lubricentroelcacique.com.ar/imagenes/auto1.jpg” />
     <meta charset="utf-8" />
     <title>Lubricentro | Taller Mecanico Cinco Saltos</title>
 
@@ -60,7 +59,7 @@
                 >Inicio</a
               >
               <a
-                class="nav-link text-center text-white"
+                class="nav-link text-center text-white disabled"
                 href="quienes_somos.html"
                 >Quienes Somos</a
               >
@@ -200,31 +199,42 @@
         <div class="logoForm">
           <img src="./imagenes/logo.jpeg" alt="logo-lubricentro" />
         </div>
-        <form action="POST">
-          <label for="name">Nombre *</label>
+        <form action="contacto.php" method="POST">
+          <label for="nombre">Nombre *</label>
           <input
             type="text"
             placeholder="Ingresa  tu nombre"
             required
-            name="name"
+            name="nombre"
             autocomplete="off"
           />
-          <label for="email">Email *</label>
+          <label for="mail">Email *</label>
           <input
             type="email"
             autocomplete="off"
-            name="email"
+            name="mail"
             id=""
             placeholder="Ingresa tu email"
             required
           />
 
           <label for="telefono">Teléfono</label>
-          <input type="tel" placeholder="Introduce tu numero de telefono" />
+          <input
+            type="tel"
+            placeholder="Introduce tu numero de telefono"
+            name="telefono"
+            id="telefono"
+          />
 
           <label for="asunto">Asunto *</label>
 
-          <input type="text" placeholder="Escribe el  Asunto" required />
+          <input
+            type="text"
+            placeholder="Escribe el  Asunto"
+            id="asunto"
+            name="asunto"
+            required
+          />
 
           <label for="mensaje" id="mensajeForm">Mensaje *</label>
           <textarea
@@ -238,14 +248,11 @@
 
           <br />
           <label for="newsletter">Desea recibir el newsletter</label>
-          <input type="checkbox" name="" id="newsletter" />
+          <input type="checkbox" name="newsletter" id="newsletter" />
 
-          <input
-            type="submit"
-            value="Enviar"
-            class="btn btn-cyan btnContacto"
-            id="buttonSend"
-          />
+          <button class="btn btn-cyan btnContacto" id="buttonSend">
+            Enviar
+          </button>
         </form>
       </div>
     </section>
