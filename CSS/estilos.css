@@ -206,6 +206,10 @@ form input {
     line-height: 3;
     width: 100%;
   }
+
+  .mainContacto {
+    display: none;
+  }
 }
 /* --- mobile responsive --- */
 @media (max-width: 576px) {
