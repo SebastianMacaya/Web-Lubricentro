@@ -258,15 +258,17 @@ form input {
   }
 
   .image2 {
-    order: 2;
+    order: 1;
   }
 
   .text1 {
     order: -1;
+    text-align: center;
   }
 
   .text2 {
     order: 1;
+    text-align: center;
   }
 }
 .ir-arriba {
