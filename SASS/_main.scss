@@ -235,7 +235,7 @@ form input {
     display: inline-block;
   }
 
-  .grid-container {
+  /*   .grid-container {
     display: flex;
     flex-wrap: wrap;
   }
@@ -243,7 +243,7 @@ form input {
     order: 0;
   }
   .image2 {
-    order: 1;
+    order: 2;
   }
   .text1 {
     order: -1;
@@ -252,5 +252,15 @@ form input {
   .text2 {
     order: 1;
     text-align: center;
+  } */
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+      "text1"
+      "image1"
+      "text2"
+      "image2";
   }
 }
