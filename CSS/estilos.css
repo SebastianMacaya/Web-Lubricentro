@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
-  font-family: "Open Sans", sans-serif;
-  /* tipografia */
   background-color: #222831;
   color: #eeeeee;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 .titulo {
@@ -61,6 +61,7 @@ p {
 .formulario {
   margin-left: 7%;
   width: auto;
+  padding: 2rem;
 }
 
 form input {
@@ -120,6 +121,11 @@ form input {
 }
 
 /* ---- quienes somos --- */
+.main {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -138,10 +144,12 @@ form input {
 
 .text1 {
   grid-area: text1;
+  padding: 0 1rem;
 }
 
 .text2 {
   grid-area: text2;
+  padding: 0 1rem;
 }
 
 .historia {
@@ -149,6 +157,10 @@ form input {
   background: #0a0808;
   color: #ff2e2e;
   filter: drop-shadow(2px 4px 6px black);
+}
+
+.historia h2 {
+  font-size: 2.5rem;
 }
 
 .grid-container div img {
@@ -248,24 +260,6 @@ form input {
     display: inline-block;
   }
 
-  /*   .grid-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .image1 {
-    order: 0;
-  }
-  .image2 {
-    order: 2;
-  }
-  .text1 {
-    order: -1;
-    text-align: center;
-  }
-  .text2 {
-    order: 1;
-    text-align: center;
-  } */
   .grid-container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
@@ -319,6 +313,8 @@ form input {
   flex-direction: column;
   justify-content: space-evenly;
   padding-bottom: 4%;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 @media (max-width: 768px) {
   .article__main .article__containerText {

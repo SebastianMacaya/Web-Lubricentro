@@ -28,6 +28,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding-bottom: 4%;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
     @media (max-width: 768px) {
       flex-direction: column;
