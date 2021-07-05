@@ -163,6 +163,14 @@ form input {
   font-size: 2.5rem;
 }
 
+.historia p {
+  color: lightgray;
+}
+
+.carouselTitle {
+  color: #ff2e2e;
+}
+
 .grid-container {
   border: 1px solid;
   border-radius: 1%;
