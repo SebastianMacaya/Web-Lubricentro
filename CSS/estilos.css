@@ -37,6 +37,7 @@ a.nav-link:hover {
   font-size: 3.7rem;
   font-family: "Staatliches", cursive;
   padding-left: 30px;
+  text-shadow: 2px 2px 2px black;
 }
 
 #contactoMobile {
