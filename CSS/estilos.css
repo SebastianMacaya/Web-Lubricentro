@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
@@ -702,5 +703,22 @@ form input {
     transform: translate3d(100%, 0, 0);
     display: flex;
     visibility: visible;
+  }
+}
+
+.servicios {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.servicios li {
+  background: url("../imagenes/viñeta.png") no-repeat left center;
+  height: 25px;
+  padding-left: 28px;
+}
+@media (max-width: 768px) {
+  .servicios li {
+    flex: none !important;
+    text-align: start;
   }
 }/*# sourceMappingURL=estilos.css.map */

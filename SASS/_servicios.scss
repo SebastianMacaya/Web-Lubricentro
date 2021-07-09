@@ -1,0 +1,15 @@
+.servicios {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    background: url("../imagenes/viñeta.png") no-repeat left center;
+    height: 25px;
+    padding-left: 28px;
+    @media (max-width: 768px) {
+      flex: none !important;
+      text-align: start;
+    }
+  }
+}
