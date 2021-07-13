@@ -315,7 +315,7 @@ form input {
     flex-wrap: wrap;
   }
 }
-@media (max-width: 576) {
+@media (max-width: 576px) {
   .article__main .article__container {
     flex-wrap: wrap;
   }
