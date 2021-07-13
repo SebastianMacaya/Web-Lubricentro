@@ -721,4 +721,33 @@ form input {
     flex: none !important;
     text-align: start;
   }
+}
+
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow: hidden;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-preloader {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+
+.h3-preloader {
+  color: #fff;
+}
+
+.preloader.cargado {
+  display: none;
 }/*# sourceMappingURL=estilos.css.map */
