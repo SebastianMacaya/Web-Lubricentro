@@ -91,15 +91,15 @@ form input {
 }
 
 #whatsapp a img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 #whatsapp a {
   background: none;
   position: fixed;
-  top: 70%;
-  left: 7%;
+  top: 75%;
+  right: 2%;
 }
 @media (max-width: 768px) {
   #whatsapp a {
