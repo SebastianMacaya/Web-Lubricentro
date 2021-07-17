@@ -180,7 +180,7 @@ textarea {
 }
 /* ---footer --- */
 .footer {
-  height: auto;
+  min-height: auto;
   background: linear-gradient(
     90deg,
     rgba(69, 69, 69, 1) 0%,
@@ -192,6 +192,9 @@ textarea {
   flex-direction: column;
   align-items: center;
   filter: drop-shadow(2px 4px 6px black);
+  @media (min-width: 968px) {
+    min-height: 71px;
+  }
 }
 
 .footer div a span {
