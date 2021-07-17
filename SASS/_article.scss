@@ -42,6 +42,8 @@
   }
 
   .article__containerImg {
+    width: 70%;
+
     @media (max-width: 968px) {
       width: $cienx/2;
     }

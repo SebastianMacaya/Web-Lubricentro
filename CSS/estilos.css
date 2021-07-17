@@ -344,6 +344,9 @@ textarea {
 .article__main .article__containerTextTitle {
   color: #ff2e2e;
 }
+.article__main .article__containerImg {
+  width: 70%;
+}
 @media (max-width: 968px) {
   .article__main .article__containerImg {
     width: 50%;
