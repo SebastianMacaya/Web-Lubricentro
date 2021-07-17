@@ -89,6 +89,11 @@ form input {
   background: none;
   position: fixed;
   top: 70%;
+  left: 7%;
+
+  @media (max-width: 768px) {
+    left: 2%;
+  }
 }
 
 .mainContacto {
@@ -175,7 +180,7 @@ textarea {
 }
 /* ---footer --- */
 .footer {
-  height: 100px;
+  height: auto;
   background: linear-gradient(
     90deg,
     rgba(69, 69, 69, 1) 0%,

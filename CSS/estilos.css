@@ -99,6 +99,12 @@ form input {
   background: none;
   position: fixed;
   top: 70%;
+  left: 7%;
+}
+@media (max-width: 768px) {
+  #whatsapp a {
+    left: 2%;
+  }
 }
 
 .mainContacto {
@@ -193,7 +199,7 @@ textarea {
 
 /* ---footer --- */
 .footer {
-  height: 100px;
+  height: auto;
   background: linear-gradient(90deg, #454545 0%, #2b2b2b 91%);
   width: 100%;
   display: flex;
