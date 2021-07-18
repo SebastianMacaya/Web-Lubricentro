@@ -781,4 +781,22 @@ textarea {
   100% {
     transform: translateX(0);
   }
+}
+
+.ir-arriba {
+  display: block;
+  padding: 17px;
+  background: gray;
+  font-size: 9px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  border-radius: 5%;
+}
+
+.ir-arriba img {
+  width: 20px;
+  height: 16px;
 }/*# sourceMappingURL=estilos.css.map */
