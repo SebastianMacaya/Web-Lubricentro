@@ -7,7 +7,6 @@ $email_message .= "E-mail: " . $_POST['mail'] . "\n";
 $email_message .= "Telefono: " . $_POST['telefono'] . "\n";
 $email_message .= "Asunto: " . $_POST['asunto'] . "\n";
 $email_message .= "Mensaje: " . $_POST['mensaje'] . "\n\n";
-$email_message .= "NewsLetter: " . $_POST['newsletter'] . "\n\n";
 $headers = 'From: ' . $email_to . "\r\n" . 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);
 echo '<script type="text/javascript">
