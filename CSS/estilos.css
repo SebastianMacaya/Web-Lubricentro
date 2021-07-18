@@ -743,4 +743,14 @@ textarea {
 #whatsapp a img {
   width: 50px;
   height: 50px;
+}
+
+.progressB {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.progress-bar {
+  background-color: #ff2e2e;
+  text-align: end;
 }/*# sourceMappingURL=estilos.css.map */
