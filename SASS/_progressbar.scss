@@ -8,6 +8,8 @@
   background-color: rgb(255, 46, 46);
   text-align: end;
   animation: 1s ease-out 0s 1 slideInFromLeft;
+  border: 1px solid black;
+  border-radius: inherit;
 
   @keyframes slideInFromLeft {
     0% {
