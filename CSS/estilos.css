@@ -90,18 +90,6 @@ form input {
   opacity: 70%;
 }
 
-#whatsapp a img {
-  width: 60px;
-  height: 60px;
-}
-
-#whatsapp a {
-  background: none;
-  position: fixed;
-  top: 75%;
-  right: 2%;
-}
-
 .mainContacto {
   display: flex;
   justify-content: center;
@@ -291,24 +279,6 @@ textarea {
     grid-template-areas: "text1" "image1" "text2" "image2";
   }
 }
-.ir-arriba {
-  display: block;
-  padding: 17px;
-  background: gray;
-  font-size: 9px;
-  cursor: pointer;
-  position: fixed;
-  bottom: 20px;
-  right: 2%;
-  z-index: 100;
-  border-radius: 5%;
-}
-
-.ir-arriba img {
-  width: 20px;
-  height: 16px;
-}
-
 .article__main .article__title {
   color: #ff2e2e;
   font-size: 2rem;
@@ -763,4 +733,14 @@ textarea {
 
 .preloader.cargado {
   display: none;
+}
+
+#whatsapp a {
+  background: none;
+  position: fixed;
+  top: 75%;
+}
+#whatsapp a img {
+  width: 50px;
+  height: 50px;
 }/*# sourceMappingURL=estilos.css.map */
