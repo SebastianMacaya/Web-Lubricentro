@@ -7,6 +7,20 @@ body {
   color: #eeeeee;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  body {
+    max-width: none;
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    max-width: none;
+    margin: auto;
+  }
 }
 
 .titulo {
@@ -117,11 +131,6 @@ textarea {
 }
 
 /* ---- quienes somos --- */
-.main {
-  max-width: 1366px;
-  margin: 0 auto;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -206,7 +215,7 @@ textarea {
   .titulo {
     display: flex;
     align-items: center;
-    background-image: url(../imagenes/titulo3.webp);
+    background-image: url(../imagenes/titulochiquito.png);
     background-repeat: no-repeat;
     justify-content: center;
     background-size: cover;
@@ -241,7 +250,7 @@ textarea {
   .titulo {
     display: flex;
     align-items: center;
-    background-image: url(../imagenes/titulo3.webp);
+    background-image: url(../imagenes/titulochiquito.png);
     background-repeat: no-repeat;
     justify-content: center;
     background-size: cover;
