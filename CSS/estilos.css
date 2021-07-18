@@ -101,11 +101,6 @@ form input {
   top: 75%;
   right: 2%;
 }
-@media (max-width: 768px) {
-  #whatsapp a {
-    left: 2%;
-  }
-}
 
 .mainContacto {
   display: flex;
