@@ -751,6 +751,8 @@ textarea {
 .progressB {
   margin-top: 1%;
   margin-bottom: 1%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .progress-bar {
