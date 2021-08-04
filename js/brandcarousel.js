@@ -5,7 +5,6 @@ $(function () {
       reserve = 1, //do not change
       $itemsContainer = $(".carousel-inner", this),
       it = itemsPerSlide + reserve - (totalItems - e.to);
-    console.log($itemsContainer);
     if (it > 0) {
       for (var i = 0; i < it; i++) {
         $(".carousel-item", this)
