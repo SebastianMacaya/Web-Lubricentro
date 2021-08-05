@@ -30,3 +30,7 @@
 .btn-cyan {
   @include button-bg($color-lgy);
 }
+
+.btn-red {
+  @include button-bg($color-red);
+}

@@ -394,6 +394,17 @@ textarea {
   background: #61ffff;
 }
 
+.btn-red {
+  background: #ff2e2e;
+}
+.btn-red:hover {
+  background: #ff0505;
+  transition: all 0.3s ease;
+}
+.btn-red:active {
+  background: #ae0000;
+}
+
 /*Creamos el bucle para usar los valores del mapa*/
 .border-green {
   border: 1px solid #2ecc71;
@@ -799,4 +810,15 @@ textarea {
 .ir-arriba img {
   width: 20px;
   height: 16px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }/*# sourceMappingURL=estilos.css.map */
