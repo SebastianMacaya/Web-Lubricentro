@@ -288,6 +288,10 @@ textarea {
     grid-template-areas: "text1" "image1" "text2" "image2";
   }
 }
+.border-blue {
+  border: 1px solid #3498db;
+}
+
 .article__main .article__title {
   color: #ff2e2e;
   font-size: 2rem;
@@ -403,23 +407,6 @@ textarea {
 }
 .btn-red:active {
   background: #ae0000;
-}
-
-/*Creamos el bucle para usar los valores del mapa*/
-.border-green {
-  border: 1px solid #2ecc71;
-}
-
-.border-blue {
-  border: 1px solid #3498db;
-}
-
-.border-cyan {
-  border: 1px solid lightcyan;
-}
-
-.border-red {
-  border: 1px solid #ff2e2e;
 }
 
 .carousel-multiple::before {
