@@ -84,7 +84,7 @@
       }
     } // .carousel-item
 
-    // farthest right hidden item must be also positioned for animations
+    // El elemento oculto más a la derecha también debe colocarse para las animaciones
     .carousel-item-prev.carousel-item-right {
       position: absolute;
       top: 0;
@@ -97,7 +97,7 @@
     }
   } // .carousel-inner
 
-  // left or forward direction
+  // dirección hacia la izquierda o hacia adelante
   .active.carousel-item-left + .carousel-item-next.carousel-item-left {
     position: relative;
     transform: translate3d(-100%, 0, 0);
@@ -112,7 +112,7 @@
     }
   }
 
-  // right or previous direction
+  // dirección derecha o anterior
   .active.carousel-item-right + .carousel-item-prev.carousel-item-right {
     position: relative;
     transform: translate3d(100%, 0, 0);
