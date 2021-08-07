@@ -58,7 +58,7 @@
                   >Quienes Somos</a
                 >
                 <a
-                  class="nav-link text-center text-white"
+                  class="nav-link text-center text-white nav-active"
                   href="trabaja_con_nosotros.html"
                   >Trabaja con Nosotros</a
                 >
@@ -86,17 +86,14 @@
       </div>
       <div class="historia">
         <h2>SUMATE AL EQUIPO</h2>
-        <p>
-          ¿Querés unirte a nuestro equipo? Descubrí nuestras oportunidades de
-          trabajo.
-        </p>
+        <p>Descubrí nuestras oportunidades de trabajo.</p>
       </div>
       <!-- ------------------------------- Inicio de Trabaja con nosotros ------------------------------- -->
-      <section class="bg-blanco">
+      <section class="mainRhh">
         <div class="container">
           <div class="row">
             <div class="col-lg-8">
-              <div class="bg-blanco">
+              <div>
                 <div class="container">
                   <div class="row">
                     <span
@@ -122,16 +119,22 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <img src="./imagenes/rrhh-banner.png" class="img-responsive" />
+              <img
+                src="./imagenes/rrhh/rrhh-banner.png"
+                class="img-responsive"
+              />
             </div>
           </div>
-          <div class="margen-40"></div>
         </div>
       </section>
       <!-- ---------------------- fin trabaja con nosotros ----------------------- -->
-      <div class="d-flex">
-        <div class="slogan w-50">
-          <img src="./imagenes/logo.png" alt="logo Lubricentro" />
+      <div class="d-flex mainNewsletter">
+        <div class="slogan w-50 d-flex flex-column align-items-center">
+          <img
+            src="./imagenes/rrhh/RBranson.png"
+            class="logo"
+            alt="logo Lubricentro"
+          />
           <cite>"Si cuidas a tus empleados ellos cuidaran de tu negocio"</cite>
           <p>Richard Branson</p>
         </div>
@@ -139,8 +142,10 @@
           <h4>Suscribase a nuestro newsletter</h4>
           <form action="">
             <label for="email">Su correo electronico:</label>
-            <input type="email" required />
-            <button type="submit">Suscribirse</button>
+            <input type="email" required placeholder="Su Correo Aqui" />
+            <button type="submit" class="btn btn-red btnContacto d-block">
+              Suscribirse
+            </button>
           </form>
         </div>
       </div>

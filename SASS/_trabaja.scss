@@ -7,3 +7,34 @@
   max-width: 100%;
   height: auto;
 }
+.mainRhh {
+  .row span {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  .row a {
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+
+.mainNewsletter {
+  background-color: black;
+  color: gold;
+  filter: drop-shadow(black 1px 4px 31px);
+  border-radius: 0px 0px 17px 17px;
+  img {
+    width: 144px;
+    height: 144px;
+    border-radius: 50%;
+    opacity: 56%;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+  form input {
+    width: 70%;
+    background-color: lightgray;
+  }
+}

@@ -34,7 +34,8 @@ a.nav-link {
   line-height: 3;
   transition: all 500ms ease-in-out;
 }
-a.nav-link:hover {
+a.nav-link:hover,
+.nav-active {
   color: gold !important;
   text-decoration: underline;
   filter: saturate(95%);
