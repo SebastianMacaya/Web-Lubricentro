@@ -81,95 +81,93 @@
         </div>
       </header>
       <!-- Titulo -->
-      <div class="titulo">
-        <h1 id="tituloh1">Lubricentro el Cacique</h1>
-      </div>
-      <!-- Main container  -->
-      <section class="text-center article__main">
-        <p class="article__title">A su servicio</p>
-        <h2 class="article__subtitle">
-          Reparacion vehicular lider en la industria
-        </h2>
 
-        <div class="d-flex article__container">
-          <img
-            src="./imagenes/scanner.png"
-            alt="imagen scanneando vehiculo"
-            class="article__containerImg"
-          />
-          <div class="contenedorTexto article__containerText">
-            <h3 class="article__containerTextTitle">
-              Diagnóstico computarizado
-            </h3>
-            <p class="article__containerTextParagraph">
-              Lubricentro el Cacique tiene la experiencia necesaria en realizar
-              el diagnostico y reparación para que su auto funcione sin
-              problemas. Ofrecemos el servicio al cliente de mejor calidad y
-              trataremos su automóvil como si fuera nuestro. Salga del
-              estacionamiento con su vehículo como nuevo. Le sorprenderá la
-              diferencia con nuestros servicios en diagnostico computarizado
-            </p>
-          </div>
-        </div>
+      <h1 id="tituloh1" class="text-center">Donde Estamos?</h1>
 
-        <div class="d-flex article__container">
-          <img
-            src="./imagenes/inspeccion.png"
-            alt="imagen de inspeccion de vehiculo"
-            class="article__containerImg"
-          />
-          <div class="contenedorTexto article__containerText">
-            <h3 class="article__containerTextTitle text-center">
-              Inspecciones de vehículos
-            </h3>
-            <p class="article__containerTextParagraph">
-              Nuestro servicio en Inspecciones de vehículos nos diferencian de
-              otros mecánicos. Hacer que su vehículo se esfuerce más de lo
-              necesario acortará su vida útil. Entréguelo a los profesionales de
-              Lubricentro el Cacique hoy. Sabemos qué hacer.
-            </p>
-          </div>
-        </div>
-        <!--  ---- Contactenos ---- -->
-        <p>
-          ¡Nos encanta lo que hacemos! Es muy simple. Amamos los automóviles.
-          Llámenos hoy mismo.
-        </p>
-
-        <a href="tel:+542994042562" class="btn btn-cyan btnContacto m-lg-1"
-          >Llamar</a
-        >
-
-        <div class="d-flex article__container">
-          <img
-            src="./imagenes/horarios.png"
-            alt="imagen complementaria a horarios"
-            class="article__containerImg"
-          />
-
-          <div
-            class="
-              article__containerText
-              d-flex
-              flex-column
-              justify-content-center
-            "
-          >
-            <p class="article__title">Horarios de atencion</p>
-            <p class="article_subtitle">Visitenos</p>
-            <p>Lunes - Viernes: 8 a. m. - 8p. m.</p>
-
-            <p>Sábado: 10 a. m. - 3 p. m.</p>
-            <p>Domingo: cerrado</p>
-          </div>
-        </div>
+      <!--  iframe maps -->
+      <section class="container-fluid d-flex justify-content-center">
+        <iframe
+          class="mapDesktop"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.4227658164727!2d-68.06614628412852!3d-38.822777700221195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a4a165f78039b%3A0x28441478936708ce!2sLubricentro%20El%20Cacique!5e0!3m2!1sen!2sar!4v1623248515210!5m2!1sen!2sar"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
       </section>
+      <!-- --- Contacto -- -->
+      <div class="mailContacto p-1" id="irFormularioMobile">
+        <p>Contacto</p>
+        <a href="mailto:sergio@lubricentroelcacique.com">
+          EMAIL: sergio@lubricentroelcacique.com.ar</a
+        >
+      </div>
 
-      <!-- Boton de whatsaap -->
-      <section id="whatsapp">
-        <a href="https://wa.me/+542994042562">
-          <img src="./imagenes/whatsapp.png" alt="logo whatsapp" />
-        </a>
+      <section class="mainContacto" id="irFormulario">
+        <div class="textoMainContacto">
+          <p>CONTACTO</p>
+          <p>Blummetti 375, Cinco Saltos R.N</p>
+          <p>sergio@lubricentroelcacique.com.ar</p>
+          <p>0299-4983444</p>
+        </div>
+
+        <div class="formulario">
+          <div class="logoForm">
+            <img src="./imagenes/logo.png" alt="logo-lubricentro" />
+          </div>
+          <form action="contacto.php" method="POST">
+            <label for="nombre">Nombre *</label>
+            <input
+              type="text"
+              placeholder="Ingresa  tu nombre"
+              required
+              name="nombre"
+              autocomplete="off"
+            />
+            <label for="mail">Email *</label>
+            <input
+              type="email"
+              autocomplete="off"
+              name="mail"
+              id=""
+              placeholder="Ingresa tu email"
+              required
+            />
+
+            <label for="telefono">Teléfono</label>
+            <input
+              type="tel"
+              placeholder="Introduce tu numero de telefono"
+              name="telefono"
+              id="telefono"
+            />
+
+            <label for="asunto">Asunto *</label>
+
+            <input
+              type="text"
+              placeholder="Escribe el  Asunto"
+              id="asunto"
+              name="asunto"
+              required
+            />
+
+            <label for="mensaje" id="mensajeForm">Mensaje *</label>
+            <textarea
+              name="mensaje"
+              id=""
+              cols="50"
+              rows="8"
+              placeholder="Escribe tu mensaje aqui..."
+              required
+            ></textarea>
+
+            <button class="btn btn-cyan btnContacto" id="buttonSend">
+              Enviar
+            </button>
+          </form>
+        </div>
       </section>
 
       <!-- Footer  -->
@@ -202,10 +200,6 @@
     </div>
     <!-- Fin Main-->
 
-    <!--Boton ir arriba-->
-    <span class="ir-arriba"
-      ><img src="./imagenes/up.svg" alt="boton de ir arriba"
-    /></span>
     <!--PANTALLA DE CARGA-->
     <div class="preloader">
       <div class="image-container">
@@ -230,6 +224,5 @@
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <!--Jquery boton ir arriba-->
     <script src="bootstrap/js/jquery.3.3.1.js"></script>
-    <script src="./js/arriba.js"></script>
   </body>
 </html>
