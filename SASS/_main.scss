@@ -149,6 +149,7 @@ textarea {
   text-align: center;
   color: $color-red;
   filter: drop-shadow(2px 4px 6px black);
+  margin-top: 10px;
 }
 .historia h2 {
   font-size: 2.5rem;
@@ -250,14 +251,6 @@ textarea {
   }
   .mailContacto a:hover {
     color: aqua;
-  }
-
-  #contactoDesktop {
-    display: none;
-  }
-
-  #contactoMobile {
-    display: inline-block;
   }
 
   .grid-container {

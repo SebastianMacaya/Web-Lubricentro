@@ -162,6 +162,7 @@ textarea {
   text-align: center;
   color: #ff2e2e;
   filter: drop-shadow(2px 4px 6px black);
+  margin-top: 10px;
 }
 
 .historia h2 {
@@ -269,14 +270,6 @@ textarea {
 
   .mailContacto a:hover {
     color: aqua;
-  }
-
-  #contactoDesktop {
-    display: none;
-  }
-
-  #contactoMobile {
-    display: inline-block;
   }
 
   .grid-container {
@@ -807,6 +800,11 @@ textarea {
   height: auto;
 }
 
+.mainRhh {
+  background-color: #161718;
+  margin-top: 10px;
+  padding-top: 10px;
+}
 .mainRhh .row span {
   margin-bottom: 10px;
   font-size: 1.3rem;
